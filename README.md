@@ -4,11 +4,16 @@ This repository contains the Listings, Exercises, and Solutions
 for Chapter 13 of C Primer Plus, 5th Edition, by Stephen Prata,
 which covers the following topics:
 
-    (1) how to process files using C's standard I\O family of
+    (1) functions: fopen(), getc(), putc(), exit(), fclose(),
+        fprintf(), fscanf(), fgets(), fputs(), rewind(), 
+        fseek(), ftell(), fflush(), fgetpos(), fsetpos(), 
+        feof(), ferror(), fgetpos(), fsetpos(), feof(), 
+        ferror(), ungetc(), setvbuf(), fread(), and fwrite()
+    (2) how to process files using C's standard I\O family of
         functions
-    (2) text modes and binary modes, text and binary formats,
+    (3) text modes and binary modes, text and binary formats,
         and buffered and nonbuffered I/O
-    (3) using functions that can access files both sequentially
+    (4) using functions that can access files both sequentially
         and randomly
 
 I created this repository for two reasons. First, I wanted to 
